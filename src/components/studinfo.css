@@ -1,0 +1,51 @@
+.add-student-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-student-info h2 {
+    text-align: center;
+  }
+  
+  .add-student-info form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-student-info form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-student-info form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-student-info form input[type="text"],
+  .add-student-info form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-student-info form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-student-info form button:disabled {
+    background-color: #ccc;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    text-align: center;
+  }

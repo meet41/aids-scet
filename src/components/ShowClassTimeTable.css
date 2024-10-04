@@ -1,0 +1,59 @@
+.show-class-timetable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.show-class-timetable h2 {
+  margin-bottom: 20px;
+  color: red;
+}
+
+.show-class-timetable table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.show-class-timetable th,
+.show-class-timetable td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.show-class-timetable th {
+  background-color: rgb(46, 223, 46);
+  font-weight: bold;
+}
+
+.show-class-timetable a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.show-class-timetable a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.show-class-timetable button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.show-class-timetable button:hover {
+  background-color: #ff1a1a;
+}

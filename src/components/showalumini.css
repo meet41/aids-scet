@@ -1,0 +1,40 @@
+.show-alumini {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .show-alumini h2 {
+    text-align: center;
+  }
+  
+  .alumini-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .alumini-table th,
+  .alumini-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .alumini-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    text-align: center;
+  }
+  
+  .loading-message {
+    text-align: center;
+    color: #555;
+  }
