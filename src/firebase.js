@@ -4,16 +4,7 @@ import { getDatabase, ref, query, orderByChild, equalTo, get } from 'firebase/da
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAzfms5zemDO6HT33-H1hXtyp-UErnnJWc",
-  authDomain: "aiscet-23903.firebaseapp.com",
-  databaseURL: "https://aiscet-23903-default-rtdb.firebaseio.com",
-  projectId: "aiscet-23903",
-  storageBucket: "aiscet-23903.appspot.com",
-  messagingSenderId: "1057490352597",
-  appId: "1:1057490352597:web:03c067e10850a5e901655c",
-  measurementId: "G-V3QMCZK1JS"
-};
+// add your firebase keys
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
